@@ -1,6 +1,6 @@
 STEP 1: Create the SSH key in AWS Client
 
-$ ssh-keygen -t rsa -b 2048 -f /root/.ssh/id_rsa
+`ssh-keygen -t rsa -b 2048 -f /root/.ssh/id_rsa`
 
 STEP 2: Launch the EC2 instance In AWS console
 - Ensure type is t2.micro
